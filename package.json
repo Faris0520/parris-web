@@ -1,0 +1,29 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "parrisweb",
+  "version": "0.0.1",
+  "description": "ini web parris!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node pages.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "force-ssl-heroku": ""
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/faris0520/parrisweb"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
