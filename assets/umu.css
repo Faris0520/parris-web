@@ -1,0 +1,115 @@
+/* ---- reset ---- */
+body {
+  margin: 0 auto;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  z-index: 0;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+  z-index: 100;
+}
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  opacity: 2;
+  background-image: url("./bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  z-index: -1;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+#particles canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.8);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-25px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+/* batas */
+.boxx {
+  border-radius: 42px;
+background: #1e1a1a;
+box-shadow:  27px 27px 53px #151212,
+             -27px -27px 53px #272222;
+}
+.welcome-scene {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  z-index: 9999;
+}
+
+.hidden {
+  display: none;
+}

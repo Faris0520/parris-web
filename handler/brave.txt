@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: parriz.repl.co
+Token: 2f3c3015b8619927263f139e0ca12ee70e63a0eef951466bd59b8f5e6a88a831

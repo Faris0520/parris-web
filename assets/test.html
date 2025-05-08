@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanyard</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/gh/xaronnn/js-lanyard/lanyard.js"></script>
+    <script type="text/javascript">
+        // websocket with single user example
+        lanyard({
+            userId: "695817459206324265",
+            socket: true,
+            onPresenceUpdate: console.log // presenceData
+        }) // returns a websocket
+    </script>
+</body>
+</html>
