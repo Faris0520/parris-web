@@ -30,10 +30,10 @@ app.get("/test", (request, response) => {
 })
 
 // listen for requests :)
-const listener = 
+/* const listener = 
       app.listen(process.env.PORT, () => {
   console.log("Your app is listening on port " + listener.address().port);
 } );
 setInterval(() => {
   http.get(`http://farisdaffa.id/ok`);
-}, 20000); 
+}, 20000); */
