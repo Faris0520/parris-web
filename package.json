@@ -15,7 +15,7 @@
     "force-ssl-heroku": ""
   },
   "engines": {
-    "node": "12.x"
+    "node": "22.x"
   },
   "repository": {
     "url": "https://github.com/faris0520/parris-web"
