@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      href="./cat.png"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta property="og:description" content="Hello, Im Faris" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#2C2F33" />
+    <meta property="og:site_name" content="FarisDaffa" />
+    <meta property="og:url" content="https://parrisweb.faris0520.repl.co" />
+    <!--<script>
+      (function (c, a, m) {
+        var title = (c || document.title) + " " + (a || "-") + " ";
+        setInterval(function () {
+          title = title.substring(1) + title.charAt(0);
+          document.title = title;
+        }, m || 300);
+      })("F a r i s D a f f a", "        ", 200);
+    </script>-->
+    <title>F a r i s D a f f a</title>
+    <link rel="stylesheet" href="/umu.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/tachyons-animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons/css/tachyons.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./umu.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" style="font-family: 'Caveat', cursive; font-size: 25px; font-display: swap;" href="#">Faris
+      </a>
+        <button
+          class="navbar-toggler toggler-example"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/about"
+                >About<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://blog.farisdaffa.id">Blog</a>
+            </li><!--
+            <li class="nav-item">
+              <a class="nav-link" href="/linktree">Linktree</a>
+            </li>-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="particles-js">
+      <main
+        class="measure center tc sans-serif black-80 absolute absolute--fill"
+      >
+        <div class="flex flex-column justify-center items-center h-100">
+          <header>
+            <h1 style="color: white">
+              <code style="color: white" class="db black-40">hai</code>
+            </h1>
+           <!-- <h2 style="color: white">
+               hm, this is like "about me"
+              <span class="nowrap"></span>
+            </h2>-->
+            <h3>
+              <!--<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/id/playlist/sirrr/pl.u-leyl09ATMm4gm9v"></iframe>-->
+              <iframe
+                src="https://open.spotify.com/embed/playlist/77WB7u3rRwk5TkbmPgKVfm"
+                width="300"
+                height="380"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </h3>
+            <h4>
+              <img src="https://discord.c99.nl/widget/theme-4/695817459206324265.png" alt="Discord Activity">
+            </h4>
+            <script>
+              function updateTime() {
+  const now = new Date();
+  const options = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+    timeZone: 'Asia/Jakarta'
+  };
+  const datetime = now.toLocaleString('id-ID', options);
+  document.getElementById('datetime').innerHTML = datetime;
+}
+setInterval(updateTime, 1000);
+            </script>
+            <h4 style="color: white; font-size: 16px" >
+              ~ <span id="datetime"></span> ~
+              <!--<div id="datedisplay" style="font-size: 10px"></div>
+              <script type="text/JavaScript">
+                 var a = moment.locale("id");
+                 var c = moment().format("LLLL");
+                  var d = moment().seconds();
+                  let p = document.getElementById("datedisplay").innerHTML = c;
+                p.refresh(1000);
+              </script> -->
+            </h4>
+          </header>
+        </div>
+      </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./script.js"></script>
+
+    <!--<iframe
+ src="https://open.spotify.com/embed/playlist/0iuGEtbNlYRHPfzrxotFVI" 
+ width="300" 
+ height="380" 
+ frameborder="0" 
+ allowtransparency="true" 
+ allow="encrypted-media">
+  </iframe> -->
+    <script>window.addEventListener('load', function() {
+  const welcomeScene = document.querySelector('.welcome-scene');
+  setTimeout(function() {
+    welcomeScene.classList.add('hidden');
+  }, 1500);
+});
+</script>
+   <!--<div class="welcome-scene">
+  <h1>Thanks for visiting!</h1>
+</div>-->
+
+
+
+  </body>
+</html>
