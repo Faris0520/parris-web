@@ -1,13 +1,16 @@
-# Parris Web 🌐
+# My Simple Personal Website
 
 Personal portfolio website for Faris Daffa (parris).
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Ffarisdaffa.id)](https://farisdaffa.id)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fparris.lol)](https://parris.lol)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/cf8b2c4a-b38b-4ec8-af29-033c917f7d4d" />
+
 
 ## 🔗 Live Website
 
-Visit: [https://farisdaffa.id](https://farisdaffa.id)
+Visit: [https://parris.lol](https://parris.lol)
 
 ## ✨ Features
 
@@ -93,16 +96,6 @@ To customize the website for your own use:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
-
-**Faris Daffa (M. Faris Daffarindra)**
-
-- GitHub: [@Faris0520](https://github.com/Faris0520)
-- Twitter: [@Faris0520](https://twitter.com/Faris0520)
-- Instagram: [@farrr.ss](https://instagram.com/farrr.ss)
-- LinkedIn: [farisdaffarindra](https://linkedin.com/in/farisdaffarindra)
-- Website: [farisdaffa.id](https://farisdaffa.id)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -110,3 +103,4 @@ Contributions, issues, and feature requests are welcome!
 ## ⭐ Show your support
 
 Give a ⭐️ if you like this project!
+
